@@ -1,16 +1,46 @@
 .center {
-    width: 500px;
-    margin: auto;
+    width: 640px;
+    height: 440px;
+    margin:auto;
+    border: solid;
 }
 .center_two{
-    width: 525px;
+    width: 196px;
     margin: auto;
+    background: pink;
+    
+    padding: 20px 20px;
+    color: white;
+    
+   
 }
 .container {
-   
     height: 400px;
-    width: 400px;
+    width: 600px;
     display: grid;
-    border:solid;
+    background-color: white;
+    border:20px solid red;
    
+}
+.buttons {
+    width: 299px;
+    margin: auto;
+    background-color: pink;
+}
+
+.button {
+  margin: auto;
+  background-color: #4CAF50; 
+  border: 1px solid rgb(32, 131, 85);
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+
+}
+.selector {
+    margin: auto;
+    padding: 10px 10px;
+    width:325px;
 }
